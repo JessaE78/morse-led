@@ -242,6 +242,7 @@ void letter_Z()
 }
 
 // Create array of functions
+// This is probably a weird thing to implement, but I really wanted to avoid a million if/else or switch statements
 typedef void(*morse_function)();
 
 morse_function morse_blinkers[] =
